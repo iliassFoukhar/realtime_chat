@@ -1,0 +1,85 @@
+:root{
+    --color-orange : #8f6d10;
+}
+.container{
+    display : flex;
+    height : 100vh;
+    align-items : center;
+    width : fit-content;
+    margin-left : auto;
+    margin-right : auto;
+    
+}
+.form{
+    background-color : #FFF;   
+    display : flex;
+    flex-direction: column;
+    width : fit-content;
+    padding : 4rem 8rem;
+    align-items: center;   
+    border-radius : 16px;
+    box-shadow : 3px 5px 50px black;
+}
+
+label{
+    margin-bottom: 0.4rem;
+}
+.oAuth-icons{
+    display : flex;
+    align-items:  center;
+    width : 100%;
+    justify-content : space-around;
+
+}
+.oAuth-icons i{
+    cursor : pointer;   
+    border-radius : 50%;
+    padding : 0.5rem;
+    height : 20px;
+    width : 20px;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    transition : 0.1s all;
+}
+.oAuth-icons i:hover{
+    background-color :#8f6d10;
+    color : white;
+}
+div.div-group{
+    background-color : #fff;
+    border : 1px solid #222;
+    padding : 10px 20px 10px 12px;
+    border-radius : 12px;
+    border-left : none;
+    border-right : none;
+    border-top : none;
+}
+
+div.div-group input{
+    border : none;
+    padding-left : 10px;
+}
+div.div-group input:focus{
+    border : none;
+    outline : none;
+}
+
+.btn{
+    width : 100%;
+    border : solid 2px var(--color-orange);
+    color : var(--color-orange);
+    border-radius : 3rem;
+    background : none;
+    font-weight : 500;
+    padding : 0.4rem;
+    cursor : pointer;
+    transition : 0.1s all;
+    margin-top : 10px;
+}
+
+.btn:hover{
+    background-color : var(--color-orange);
+    border-color : var(--color-orange);
+    color : white;
+}
