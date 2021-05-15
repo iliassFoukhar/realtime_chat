@@ -1,5 +1,6 @@
 :root{
     --color-orange : #8f6d10;
+    --color-light-orange : #be9112;
 }
 .container{
     display : flex;
@@ -48,12 +49,13 @@ label{
 }
 div.div-group{
     background-color : #fff;
-    border : 1px solid #222;
-    padding : 10px 20px 10px 12px;
-    border-radius : 12px;
-    border-left : none;
-    border-right : none;
-    border-top : none;
+    border-bottom : 1px groove #555;
+    padding : 4px 6px;
+    transition : 0.3s all;
+}
+div.active{
+    border-bottom : var(--color-light-orange) 2px groove;
+    transition : 0.3s all;
 }
 
 div.div-group input{
